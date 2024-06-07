@@ -11,6 +11,7 @@ import dagger.hilt.android.components.ViewModelComponent
     ViewModelComponent::class
 )
 class WaffleModule {
+    
 
     @Provides
     fun providesMobileWalletAdapter(): MobileWalletAdapter {
