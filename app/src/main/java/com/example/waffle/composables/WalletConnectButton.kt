@@ -23,6 +23,7 @@ fun WalletConnectButton(
     waffleViewModel: WaffleViewModel = hiltViewModel()
 ) {
     val viewState = waffleViewModel.viewState.collectAsState().value
+    
 
     Column(modifier = modifier) {
         Button(
